@@ -1,0 +1,31 @@
+# Nuget restore
+packages
+project.lock.json
+
+# Build folders
+bin
+FakesAssemblies
+obj
+
+# Other misc build output
+msbuild.log
+Src/Microsoft.Azure.SqlDatabase.ElasticScale.Client.xml
+
+# Test output
+TestResults
+
+# Tools files
+*.sln.DotSettings.user
+
+# Temporary tools files
+*.GhostDoc.xml
+*.suo
+*.pd_
+
+# Visual studio
+.vs/
+.vscode/
+
+# Build output
+*.dll
+*.exe
