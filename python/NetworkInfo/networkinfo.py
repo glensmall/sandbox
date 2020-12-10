@@ -68,7 +68,6 @@ class Local_SpeedTest(object):
 if __name__ == "__main__":
 
         # print out the current network details
-        print("\n\nCurrent Network Configuration is:\n\n")
         print(MyNetwork_Details())
         print("\n\n Please wait while I test the internet speed\n\n")
         print(Local_SpeedTest())
