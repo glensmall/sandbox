@@ -18,5 +18,13 @@
     <ClCompile Include="grabPerfmonData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GWinPerfmon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GWinPerfmon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
