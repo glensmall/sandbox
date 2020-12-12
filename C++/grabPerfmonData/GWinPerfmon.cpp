@@ -23,5 +23,6 @@ GWinPerfmon::~GWinPerfmon()
 // Accessor function to set the machine name
 void GWinPerfmon::setMachineName(char* name)
 {
+	// set our provate variable with the passed in data
 	this->machineName = name;
 }
