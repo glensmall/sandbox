@@ -2,7 +2,7 @@
 My Private Sandbox
 
 
-This is just a place for me to upload code and projects where I'm either learing stuff
+This is just a place for me to upload code and projects where I'm either learning stuff
 or playing around
 
 ## Languages
