@@ -26,5 +26,6 @@ class GWinPerfmon
 	// Public Methods
 	void setMachineName(char* name);
 	
+	PDH_STATUS addCounter();
 };
 
