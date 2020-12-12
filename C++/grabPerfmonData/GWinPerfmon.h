@@ -12,6 +12,7 @@ class GWinPerfmon
 {
 	// Construction
 	GWinPerfmon();
+	GWinPerfmon(LPWSTR serverName);
 
 
 	// Destruction
@@ -20,12 +21,13 @@ class GWinPerfmon
 	// Public Vars
 
 	// Private Vars
-	std::string machineName;
-
+	std::wstring machineName = NULL;
+	HQUERY pdhQueryHandle = NULL;
+	DWORD userData = 1;
 
 	// Public Methods
-	void setMachineName(char* name);
+	void setMachineName(LPWSTR name);
 	
-	PDH_STATUS addCounter();
+	bool addCounter(LPWSTR counterObject, LPWSTR counterName, LPWSTR counterInstance);
 };
 
