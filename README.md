@@ -1,6 +1,4 @@
-# sandbox
-My Private Sandbox
-
+#My Sandbox
 
 This is just a place for me to upload code and projects where I'm either learning stuff
 or playing around
