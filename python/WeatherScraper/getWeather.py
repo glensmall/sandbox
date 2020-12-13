@@ -1,7 +1,8 @@
-import requestsfrom bs4 import BeautifulSoup
+import requests
+from bs4 import BeautifulSoup
 
 
-class Temperature(object)
+class Temperature(object):
 
     def __init__(self, place):
         self.place = place
