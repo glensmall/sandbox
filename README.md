@@ -18,3 +18,6 @@ Learning Golang from scratch.  Probably full of a lot of simple stuff for now
 
 ### C#
 Probably won't see much in here, but of I need to do something quickly in C#, this is where you'll find it
+
+### Web
+As teh name suggests, this is web dev stuff, like CSS and JS playground.
